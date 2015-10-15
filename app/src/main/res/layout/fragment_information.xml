@@ -1,0 +1,196 @@
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_info"
+            android:textSize="20dp"
+            android:paddingLeft="110dp"
+            android:paddingRight="110dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@color/blue700"
+            />
+
+
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="1"
+            android:padding="16dp"
+            >
+
+
+            <TableRow>
+                <TextView />
+
+                <TextView
+                    android:text="R$3,00 por refeição"
+                    android:textColor="@color/gray_light"
+                    android:textSize="14dp"
+                    />
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:text="Graduação:"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:text="Cota: 1ª Grátis / 2ª R$3,00"
+                    android:textColor="@color/gray_light"
+                    android:textSize="14dp"
+                    />
+            </TableRow>
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_lightBar"
+                />
+
+            <TableRow>
+                <TextView
+                    android:text="Pos-Graduação: "
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:text=" R$5,00"
+                    android:textColor="@color/gray_light"
+                    android:textSize="14dp"
+                    />
+            </TableRow>
+s
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_lightBar"
+                />
+
+
+            <TableRow>
+                <TextView
+                    android:text="Funcionário:"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:text=" R$6,00"
+                    android:textColor="@color/gray_light"
+                    android:textSize="14dp"
+                    />
+            </TableRow>
+
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/gray_lightBar"
+                />
+
+
+
+
+
+            <TableRow>
+                <TextView
+                    android:text="Horário(Almoço): "
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:text="11:00 às 14:00"
+                    android:textColor="@color/gray_light"
+                    android:textSize="14dp"
+                    />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_lightBar"
+                />
+
+
+            <TableRow>
+                <TextView
+                    android:text="Horário(Jantar): "
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:text="17:00 às 20:00"
+                    android:textColor="@color/gray_light"
+                    android:textSize="14dp"
+                    />
+            </TableRow>
+
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_lightBar"
+                />
+
+            <TableRow>
+                <TextView
+                    android:text="Horário(Tickeet): "
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:text="08:00 às 20:00"
+                    android:textColor="@color/gray_light"
+                    android:textSize="14dp"
+                    />
+            </TableRow>
+
+
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,279 @@
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_lunch"
+            android:textSize="20sp"
+            android:paddingLeft="130dp"
+            android:paddingRight="130dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@color/blue700"
+            />
+
+
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="1"
+            android:padding="16dp"
+            >
+
+
+
+            <TableRow>
+                <TextView
+                    android:text="Data:"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:text="20/09/2015"
+                    android:textColor="@color/gray_light"
+                    android:textSize="14sp"
+                    />
+            </TableRow>
+
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/gray_lightBar"
+                />
+
+
+            <TableRow>
+                <TextView
+                    android:text="Salada/Sopa:"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:text=" Saladas Variadas"
+                    android:textColor="@color/gray_light"
+                    android:textSize="14sp"
+                    />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_lightBar"
+                />
+
+
+
+
+            <TableRow>
+                <TextView />
+
+                <TextView
+                    android:text=" Arroz Branco"
+                    android:textColor="@color/gray_light"
+                    android:textSize="14sp"
+                    />
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:text="Acompanhamento:"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:text=" Arroz Integral"
+                    android:textColor="@color/gray_light"
+                    android:textSize="14sp"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView />
+
+                <TextView
+                    android:text=" Feijão Preto"
+                    android:textColor="@color/gray_light"
+                    android:textSize="14sp"
+                    />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_lightBar"
+                />
+
+
+
+            <TableRow>
+                <TextView
+                    android:text="Guarnição:"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:text="Espaguete ao molho sugo"
+                    android:textColor="@color/gray_light"
+                    android:textSize="14sp"
+                    />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_lightBar"
+                />
+
+
+            <TableRow>
+                <TextView
+                    android:text="Proteina1:"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:text="Carne Assada"
+                    android:textColor="@color/gray_light"
+                    android:textSize="14sp"
+                    />
+            </TableRow>
+
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_lightBar"
+                />
+
+            <TableRow>
+                <TextView
+                    android:text="Proteina2:"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:text="Isca de Frango"
+                    android:textColor="@color/gray_light"
+                    android:textSize="14sp"
+                    />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_lightBar"
+                />
+
+
+
+            <TableRow>
+                <TextView
+                    android:text="Proteina3:"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:text="Lasanha de Berinjela"
+                    android:textColor="@color/gray_light"
+                    android:textSize="14sp"
+                    />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_lightBar"
+                />
+
+
+            <TableRow>
+                <TextView
+                    android:text="Sobremesa:"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:text="Gelatina de Morango"
+                    android:textColor="@color/gray_light"
+                    android:textSize="14sp"
+                    />
+            </TableRow>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_lightBar"
+                />
+
+
+
+            <TableRow>
+                <TextView
+                    android:text="Suco:"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:text="Abacaxi"
+                    android:textColor="@color/gray_light"
+                    android:textSize="14sp"
+                    />
+            </TableRow>
+
+        </TableLayout>
+
+
+    </LinearLayout>
+</ScrollView>

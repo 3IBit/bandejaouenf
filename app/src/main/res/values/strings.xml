@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MENU - RU</string>
+    
+    <string name="nav_drawer_restaurant">RESTAURANTE UNIVERSITÁRIO</string>
+    <string name="nav_drawer_menu">MENU UENF</string>
+
+    <string name="menu_info">Informações</string>
+    <string name="menu_lunch">Almoço</string>
+    <string name="menu_dinner">Jantar</string>
+    <string name="menu_about">Sobre</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="welcometext"><b>Developed by Rodolfo Peixoto</b></string>
+    <string name="welcomeNameApp"><b>Cardápio UENF</b></string>
+    <string name="action_settings">Settings</string>
+</resources>
